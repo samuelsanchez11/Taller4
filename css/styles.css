@@ -1,0 +1,48 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url('../recursos/fondo_imagen.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  background-attachment: fixed; 
+}
+
+.content {
+  position: relative;
+  color: white; 
+  text-align: center;
+  padding: 50px;
+}
+
+.area1 {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 500px ;
+}
+
+.div_1, .div_2, .div_3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  align-items: center; 
+  text-align: center;
+}
+
+
+.div_1 {
+  background-color: #653e7f;
+}
+
+.div_5{
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+
+
